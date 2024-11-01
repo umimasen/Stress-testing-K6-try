@@ -1,0 +1,101 @@
+/* Reset margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background: linear-gradient(135deg, #ffb6c1, #c6e2ff);
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ff80c1;
+    color: white;
+    padding: 1.5rem;
+    border-bottom: 3px solid #ffb6c1;
+    font-size: 1.5rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px #ffa5c9;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffb6c1;
+}
+
+main {
+    padding: 3rem;
+    text-align: center;
+}
+
+section img {
+    width: 500px; /* Set width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    border: 5px solid #ffa5c9;
+    margin-bottom: 1.5rem;
+}
+
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #4a4a4a;
+    text-shadow: 1px 1px 2px #ff80c1;
+}
+
+form {
+    margin: 2rem 0;
+}
+
+label, input, button {
+    margin: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="text"] {
+    padding: 0.7rem;
+    border: 2px solid #ff80c1;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    background-color: #ff80c1;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ffa5c9;
+    transform: scale(1.1);
+}
+
+#results {
+    margin-top: 2rem;
+    color: #ff80c1;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
